@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glow Haven | Skincare Salon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">GLOW HAVEN</div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#book">Book Now</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Reveal Your Natural Glow</h1>
+      <p>
+        Experience the transformative power of our natural skincare treatments.
+      </p>
+      <p>
+        You will also get a premium, customized skincare treatments designed to
+        refresh your mind and rejuvenate your skin health.
+      </p>
+      <a href="#book" class="btn">Schedule Appointment</a>
+    </section>
+    <section class="services-section" id="services">
+      <h2 class="section-title">Our Specialized Services</h2>
+      <p class="section-subtitle">
+        Discover a tailored treatments crafted for your unique skin needs.
+      </p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="card-img-wrapper">
+            <img src="Gemini_Generated_Image_a993vxa993vxa993.png" />
+          </div>
+          <div class="card-content">
+            <h3>Glow Signature Facial</h3>
+            <p>
+              A deep-cleansing facial paired with nutrient-rich hydration serums
+              to instantly restore luminosity and brightness to dull skin.
+            </p>
+            <div class="card-footer">
+              <span class="price">$75</span>
+              <a href="#book" class="card-link">Book Now &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="card-img-wrapper">
+            <img
+              src="Gemini_Generated_Image_280rkc280rkc280r.png"
+              alt="Advanced Detox Peel - Exfoliation skincare treatment"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Advanced Detox Peel</h3>
+            <p>
+              A gentle yet effective exfoliation treatment that removes dead
+              skin cells and impurities, revealing a refreshed and revitalized
+              complexion.
+            </p>
+            <div class="card-footer">
+              <span class="price">$90</span>
+              <a href="#book" class="card-link">Book Now &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="card-img-wrapper">
+            <img
+              src="Gemini_Generated_Image_xvqu3yxvqu3yxvqu.png"
+              alt="Hydrating Therapy - Moisturizing skin treatment"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Hydrating Therapy</h3>
+            <p>
+              An intense moisture infusion process rich in botanical hyaluronic
+              acids, perfectly structured to soothe and plump sensitive or
+              dehydrated skin.
+            </p>
+            <div class="card-footer">
+              <span class="price">$60</span>
+              <a href="#book" class="card-link">Book Now &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="booking-section" id="book">
+      <div class="booking-container">
+        <h2
+          class="section-title"
+          style="margin-bottom: 25px; font-size: 1.8rem"
+        >
+          Request an Appointment
+        </h2>
+        <form
+          onsubmit="event.preventDefault();alert('Booking request submitted! We will contact you soon.');"
+        >
+          <div class="form-group">
+            <label for="name"> Full Name</label>
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder="Your full name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              required
+              placeholder="Your phone number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="service">Select Service</label>
+            <select id="service" required>
+              <option value="" disabled selected>Choose a treatment...</option>
+              <option value="glow-facial">Glow Signature Facial - $75</option>
+              <option value="detox-peel">Advanced Detox Peel - $90</option>
+              <option value="hydrating">Hydrating Therapy - $60</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" required />
+          </div>
+          <button type="submit" class="btn">Confirm Request</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2026 Glow Haven Salon. Built with care for mobile & desktop
+        browsing. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
